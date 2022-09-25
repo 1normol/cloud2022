@@ -7,9 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consumer-service80" />
         <module name="payment-service8081" />
+        <module name="payment-service" />
+        <module name="cloud-api-common" />
+        <module name="consumer-service80" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-provider-payment" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

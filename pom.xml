@@ -11,6 +11,7 @@
     <modules>
         <module>payment-service8081</module>
         <module>consumer-service80</module>
+        <module>cloud-api-common</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -91,5 +92,19 @@
         </dependencies>
     </dependencyManagement>
 
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.6.RELEASE</version>
+                <configuration>
+                    <fork>true</fork>
+                    <addResources>true</addResources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
