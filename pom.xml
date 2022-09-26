@@ -9,10 +9,13 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>payment-service8081</module>
+        <module>payment-service8001</module>
         <module>consumer-service80</module>
         <module>cloud-api-common</module>
-        <module>cloud-eureka-server</module>
+        <module>cloud-eureka-server7001</module>
+        <module>cloud-eureka-server7002</module>
+        <module>cloud-eureka-server7002</module>
+        <module>payment-service8002</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

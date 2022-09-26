@@ -22,20 +22,48 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76b356b9-f2f5-4f37-ad33-2e1b71574e95" name="Changes" comment="cloud-demo服务端和消费端代码完成，抽取common">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/src/main/java/com/lml/EurekaMain7001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="76b356b9-f2f5-4f37-ad33-2e1b71574e95" name="Changes" comment="cloud-demo完成eureka注册中心模块，并完成客户端注册">
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/lml/EurekaMain7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/rule/RibbonRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8001/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/PaymentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/mapper/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-service80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/src/main/java/com/lml/EurekaMain7001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/lml/EurekaMain7001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/config/RestTemplateConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/controller/ConsumerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8081/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8081/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/PaymentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/mapper/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/mapper/PaymentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/resources/mapper/PaymentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/PaymentApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/target/classes/com/lml/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/mapper/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/mapper/PaymentDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8081/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +112,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "D:/IdeaWork/cloud2022/cloud-api-common/src/main/java/com/lml/entity",
+    "last_opened_file_path": "D:/enviroment/apache-maven-3.8.1/repository/opx_face_repo/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,7 +121,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "spring.configuration.checksum": "7b6d10e1dec66931791760b89da387b4"
   }
 }]]></component>
@@ -102,10 +130,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWork\cloud2022\payment-service8002\src\main\resources" />
+      <recent name="D:\IdeaWork\cloud2022\payment-service8002\src\main\java" />
       <recent name="D:\IdeaWork\cloud2022\cloud-api-common\src\main\java\com\lml\entity" />
       <recent name="D:\IdeaWork\cloud2022\consumer-service80\src\main\resources" />
       <recent name="D:\IdeaWork\cloud2022\consumer-service80\src\main\java\com\lml" />
-      <recent name="D:\IdeaWork\cloud2020\payment-service8081\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lml" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -120,8 +152,19 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="PaymentApplication" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
+  <component name="RunManager" selected="Spring Boot.PaymentApplication-8001">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -159,9 +202,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="cloud-eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.EurekaMain7001" />
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.EurekaMain7002" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lml.*" />
@@ -172,7 +228,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+    <configuration name="PaymentApplication-8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <option name="ACTIVE_PROFILES" />
       <module name="payment-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.PaymentApplication" />
@@ -191,11 +247,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication-8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="payment-service8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.PaymentApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PaymentApplication" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
+        <item itemvalue="Spring Boot.PaymentApplication-8002" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.PaymentApplication-8001" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
+        <item itemvalue="Spring Boot.PaymentApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +298,7 @@
       <workItem from="1664106052713" duration="306000" />
       <workItem from="1664106366854" duration="3705000" />
       <workItem from="1664155066502" duration="600000" />
-      <workItem from="1664155697312" duration="3678000" />
+      <workItem from="1664155697312" duration="16704000" />
     </task>
     <task id="LOCAL-00001" summary="cloud-demo服务端和消费端代码完成，抽取common">
       <created>1664109463210</created>
@@ -230,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664109463210</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cloud-demo完成eureka注册中心模块，并完成客户端注册">
+      <created>1664159736379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664159736379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +333,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cloud-demo服务端和消费端代码完成，抽取common" />
-    <option name="LAST_COMMIT_MESSAGE" value="cloud-demo服务端和消费端代码完成，抽取common" />
+    <MESSAGE value="cloud-demo完成eureka注册中心模块，并完成客户端注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud-demo完成eureka注册中心模块，并完成客户端注册" />
   </component>
 </project>
