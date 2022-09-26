@@ -6,6 +6,7 @@ import com.lml.entity.Payment;
 import com.lml.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @Slf4j
+@EnableEurekaClient
 @RequestMapping("/payment")
 public class PaymentController {
     @Autowired

@@ -2,6 +2,7 @@ package com.lml.controller;
 import com.lml.entity.CommonResult;
 import com.lml.entity.Payment;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,12 +16,13 @@ import org.springframework.web.client.RestTemplate;
  */
 
 @RestController
+@EnableEurekaClient
 @RequestMapping("/consumer")
 public class ConsumerController {
     @Autowired
     private RestTemplate restTemplate;
     String url = "http://localhost:8081";
-    @RequestMapping("/payment/creat")
+    @RequestMapping("/payment/creat1")
     public CommonResult consumer(Payment payment){
         return restTemplate.postForObject(url+"/payment/add",payment,CommonResult.class);
     }
