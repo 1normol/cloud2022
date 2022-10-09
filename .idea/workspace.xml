@@ -22,33 +22,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76b356b9-f2f5-4f37-ad33-2e1b71574e95" name="Changes" comment="cloud-demo完成eureka注册中心模块，并完成客户端注册">
-      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/java/com/lml/FeignHystrixConsumer80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/java/com/lml/controller/FeignHystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/java/com/lml/service/FeignHystrixService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/ConsumerFeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/config/FeignConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/controller/PaymentFeignController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/service/PaymentFeign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/PaymentHystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/mapper/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/service/PaymentHysService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+    <list default="true" id="76b356b9-f2f5-4f37-ad33-2e1b71574e95" name="Changes" comment="cloud-demo完成hystrix学习并完成demo">
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-server9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-server9527/src/main/java/com/lml/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-server9527/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8001/target/classes/com/lml/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/target/classes/com/lml/controller/PaymentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +61,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../IntelliJ IDEA 2020.2.4/plugins/maven/lib/maven3" />
-        <option name="userSettingsFile" value="D:\enviroment\apache-maven-3.8.1\conf\settings.xml" />
+        <option name="userSettingsFile" value="D:\enviroment\apache-maven-3.8.1\conf\settings-w.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -217,6 +198,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FeignHystrixConsumer80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-fegin-hystrix-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.FeignHystrixConsumer80" />
@@ -226,6 +214,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-server9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -321,6 +316,7 @@
       <workItem from="1665220518381" duration="1580000" />
       <workItem from="1665277849639" duration="8780000" />
       <workItem from="1665294122403" duration="4590000" />
+      <workItem from="1665304824494" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="cloud-demo服务端和消费端代码完成，抽取common">
       <created>1664109463210</created>
@@ -336,7 +332,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664159736379</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cloud-demo完成hystrix学习并完成demo">
+      <created>1665304919139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665304919139</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cloud-demo完成hystrix学习并完成demo">
+      <created>1665304965462</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665304965462</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +366,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cloud-demo服务端和消费端代码完成，抽取common" />
     <MESSAGE value="cloud-demo完成eureka注册中心模块，并完成客户端注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="cloud-demo完成eureka注册中心模块，并完成客户端注册" />
+    <MESSAGE value="cloud-demo完成hystrix学习并完成demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="cloud-demo完成hystrix学习并完成demo" />
   </component>
 </project>

@@ -1,0 +1,15 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: cloud-gateway-server
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.lml.entity
+eureka:
+  client:
+    register-with-eureka: true     #是否向注册中心注册自己
+    fetch-registry: true     #是否检索服务。（该服务为注册中心，不需要去检索服务）。
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/

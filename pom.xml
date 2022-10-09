@@ -19,6 +19,7 @@
         <module>cloud-feign-service80</module>
         <module>cloud-hystrix-payment8003</module>
         <module>cloud-fegin-hystrix-consumer</module>
+        <module>cloud-gateway-server9527</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
