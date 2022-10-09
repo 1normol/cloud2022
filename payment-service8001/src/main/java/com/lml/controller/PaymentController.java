@@ -13,6 +13,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author ：limaolin
@@ -68,5 +69,13 @@ public class PaymentController {
         return new CommonResult(200,"成功",discoveryClient);
     }
 
-
+    @GetMapping("/timeout")
+    public CommonResult getPortByFeign(){
+        try {
+            TimeUnit.SECONDS.sleep(3);
+            return new CommonResult(200,"成功",serverPort);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }

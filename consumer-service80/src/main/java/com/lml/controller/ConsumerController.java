@@ -1,10 +1,10 @@
 package com.lml.controller;
-import com.lml.entity.CommonResult;
-import com.lml.entity.Payment;
+import com.lml.entity.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -62,5 +62,6 @@ public class ConsumerController {
             return new CommonResult<>(443,"请求失败");
         }
     }
+
 
 }

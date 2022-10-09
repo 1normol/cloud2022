@@ -23,47 +23,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76b356b9-f2f5-4f37-ad33-2e1b71574e95" name="Changes" comment="cloud-demo完成eureka注册中心模块，并完成客户端注册">
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/java/com/lml/EurekaMain7002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/rule/RibbonRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8001/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/PaymentApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/mapper/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/java/com/lml/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment-service8002/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/java/com/lml/FeignHystrixConsumer80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/java/com/lml/controller/FeignHystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/java/com/lml/service/FeignHystrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-fegin-hystrix-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/ConsumerFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/controller/PaymentFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/java/com/lml/service/PaymentFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-feign-service80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/PaymentHystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/mapper/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/java/com/lml/service/PaymentHysService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-payment8003/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/src/main/java/com/lml/EurekaMain7001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/lml/EurekaMain7001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/java/com/lml/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-service80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-service80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/PaymentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/PaymentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/mapper/PaymentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/mapper/PaymentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/service/PaymentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/java/com/lml/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/src/main/resources/mapper/PaymentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/PaymentApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/target/classes/com/lml/controller/PaymentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/mapper/PaymentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/service/PaymentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/com/lml/service/impl/PaymentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/classes/mapper/PaymentDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-service8081/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/src/main/java/com/lml/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment-service8001/target/classes/com/lml/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/payment-service8001/target/classes/com/lml/controller/PaymentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,8 +63,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package.json" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -93,7 +79,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:\IntelliJ IDEA 2020.2.4\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../IntelliJ IDEA 2020.2.4/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="D:\enviroment\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -112,7 +98,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-1.8",
-    "last_opened_file_path": "D:/enviroment/apache-maven-3.8.1/repository/opx_face_repo/org/springframework/boot/spring-boot-autoconfigure/2.2.2.RELEASE/spring-boot-autoconfigure-2.2.2.RELEASE.jar",
+    "last_opened_file_path": "D:/IdeaWork/cloud2022/cloud-fegin-hystrix-consumer/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -121,8 +107,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "7b6d10e1dec66931791760b89da387b4"
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "e12980870d6f78e12f1796d098b33178"
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -130,11 +116,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaWork\cloud2022\payment-service8002\src\main\resources" />
-      <recent name="D:\IdeaWork\cloud2022\payment-service8002\src\main\java" />
-      <recent name="D:\IdeaWork\cloud2022\cloud-api-common\src\main\java\com\lml\entity" />
-      <recent name="D:\IdeaWork\cloud2022\consumer-service80\src\main\resources" />
-      <recent name="D:\IdeaWork\cloud2022\consumer-service80\src\main\java\com\lml" />
+      <recent name="D:\IdeaWork\cloud2022\cloud-fegin-hystrix-consumer\src\main\resources" />
+      <recent name="D:\IdeaWork\cloud2022\cloud-hystrix-payment8003\src\main\resources" />
+      <recent name="D:\IdeaWork\cloud2022\cloud-hystrix-payment8003\src\main\java" />
+      <recent name="D:\IdeaWork\cloud2022" />
+      <recent name="D:\IdeaWork\cloud2022\cloud-feign-service80\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lml" />
@@ -152,19 +138,8 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
-    <option name="hiddenConfigurations">
-      <map>
-        <entry key="SpringBootApplicationConfigurationType">
-          <value>
-            <set>
-              <option value="PaymentApplication" />
-            </set>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApplication-8001">
+  <component name="RunManager" selected="Spring Boot.PaymentHystrixApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -189,9 +164,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-80-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-feign-service80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="consumer-service80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.ConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-feign-service80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.ConsumerFeignApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lml.*" />
@@ -215,9 +217,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server7002" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.EurekaMain7002" />
+    <configuration name="FeignHystrixConsumer80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-fegin-hystrix-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.FeignHystrixConsumer80" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lml.*" />
@@ -266,13 +268,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="payment-service8002 (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrixApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-hystrix-payment8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lml.PaymentHystrixApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.PaymentApplication-8002" />
-        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.FeignHystrixConsumer80" />
         <item itemvalue="Spring Boot.PaymentApplication-8001" />
-        <item itemvalue="Spring Boot.EurekaMain7002" />
-        <item itemvalue="Spring Boot.PaymentApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ConsumerFeignApplication" />
+        <item itemvalue="Spring Boot.PaymentApplication-8002" />
       </list>
     </recent_temporary>
   </component>
@@ -299,6 +315,12 @@
       <workItem from="1664106366854" duration="3705000" />
       <workItem from="1664155066502" duration="600000" />
       <workItem from="1664155697312" duration="16704000" />
+      <workItem from="1664240802029" duration="3487000" />
+      <workItem from="1664327528916" duration="619000" />
+      <workItem from="1664419256955" duration="8582000" />
+      <workItem from="1665220518381" duration="1580000" />
+      <workItem from="1665277849639" duration="8780000" />
+      <workItem from="1665294122403" duration="4590000" />
     </task>
     <task id="LOCAL-00001" summary="cloud-demo服务端和消费端代码完成，抽取common">
       <created>1664109463210</created>
