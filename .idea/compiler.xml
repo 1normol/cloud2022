@@ -8,24 +8,33 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="payment-service8081" />
-        <module name="cloud-gateway-server9527" />
-        <module name="cloud-eureka-server" />
-        <module name="cloud-api-common" />
-        <module name="payment-service" />
+        <module name="cloud2022-api-common" />
         <module name="cloud-eureka-7002" />
-        <module name="cloud-hystrix-payment8003" />
-        <module name="payment-service8002" />
-        <module name="cloud-eureka-server7002" />
-        <module name="cloud-fegin-hystrix-consumer" />
-        <module name="consumer-service80" />
-        <module name="cloud-feign-service80" />
+        <module name="cloud2022-eureka-server7002" />
+        <module name="cloud2022-gateway-server9527" />
+        <module name="cloud2022-feign-service80" />
+        <module name="cloud2022-hystrix-payment8003" />
+        <module name="cloud2022-payment-service8002" />
+        <module name="cloud2022-payment-service8001" />
+        <module name="cloud2022-eureka-server7001" />
+        <module name="cloud2022-fegin-hystrix-consumer80" />
+        <module name="cloud2022-consumer-service80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-api-common" target="1.8" />
       <module name="cloud-consumer-80-feign" target="1.8" />
       <module name="cloud-eureka-7002" target="1.8" />
+      <module name="cloud-eureka-server" target="1.8" />
       <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-fegin-hystrix-consumer" target="1.8" />
+      <module name="cloud-feign-service80" target="1.8" />
+      <module name="cloud-gateway-server9527" target="1.8" />
+      <module name="cloud-hystrix-payment8003" target="1.8" />
       <module name="cloud-provider-payment" target="1.8" />
+      <module name="payment-service" target="1.8" />
+      <module name="payment-service8002" target="1.8" />
       <module name="payment-service8002 (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>

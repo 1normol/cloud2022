@@ -1,0 +1,29 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: cloud-gateway-server
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true     #是否开启动态路由
+      routes:
+        - id: PAYMENT-SERVICE #payment_route    #路由的ID，没有固定规则但要求唯一，建议配合服务名
+       #   uri: http://localhost:8001
+          uri: lb://PAYMENT-SERVICE #动态路由设置时，uri以 lb://开头（lb代表从注册中⼼获取服务），后⾯是需要转发到的服务名称
+          predicates:
+            - Path=/payment/**
+         #   - Cookie=username,limaolin
+         #   - Header=X-
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.lml.entity
+eureka:
+  client:
+    register-with-eureka: true     #是否向注册中心注册自己
+    fetch-registry: true     #是否检索服务。（该服务为注册中心，不需要去检索服务）。
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+      #http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
