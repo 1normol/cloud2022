@@ -19,6 +19,7 @@
         <module>cloud2022-hystrix-payment8003</module>
         <module>cloud2022-fegin-hystrix-consumer80</module>
         <module>cloud2022-gateway-server9527</module>
+        <module>cloud2022-authorization-login8005</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

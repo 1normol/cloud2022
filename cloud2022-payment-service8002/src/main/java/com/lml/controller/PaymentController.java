@@ -74,5 +74,4 @@ public class PaymentController {
         });
         return new CommonResult(200,"成功",discoveryClient);
     }
-
 }
